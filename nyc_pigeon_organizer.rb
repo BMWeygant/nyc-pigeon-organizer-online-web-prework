@@ -9,7 +9,7 @@ h.each do |value, names|
     result[name] ||= {}
     result[name][key] ||= []
     result[name][key] << value.to_s
+      end
+    end
   end
-end
-end
 end
